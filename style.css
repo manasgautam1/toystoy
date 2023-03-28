@@ -17,7 +17,7 @@ body {
   background-color: var(--bg-purple);
 }
 .login-page .login-left img {
-  width: 80%;
+  width: 100%;
 }
 .login-page .login-left p {
   font-size: 32px;
@@ -27,10 +27,11 @@ body {
   border-radius: 30px;
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.42px;
-  font-size: 14.5px;
-  padding: 0.75rem 2rem;
+  font-size: 18px;
+  margin-top: 80px;
+  padding: 1rem 2.5rem;
 }
 .login-page .login-right {
   height: 100vh;
@@ -42,16 +43,20 @@ body {
 .login-page .login-right hr {
   width: 40px;
   border-top: 3px solid var(--bg-purple);
+  margin-bottom: 2rem !important;
   opacity: 1;
 }
 .login-page .login-right h2 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 30px;
   letter-spacing: 0.15px;
+  margin-bottom: 2rem !important;
 }
 .login-page .login-right .form-group label {
-  font-size: 14px;
-  letter-spacing: 0.3px;
+  font-size: 12px;
+  font-weight: 300 !important;
+  letter-spacing: 0.5px !important;
+  line-height: 2 !important;
 }
 .login-page .login-right .form-group .input-container {
   position: relative;
@@ -61,7 +66,7 @@ body {
   width: 34px;
   height: 34px;
   position: absolute;
-  top: 8px;
+  top: 13px;
   left: 8px;
   bottom: 8px;
   z-index: 2;
@@ -72,7 +77,7 @@ body {
   border: 2px solid #6219f5;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
-  height: 50px;
+  height: 60px;
   position: absolute;
   left: 0;
   right: 0;
@@ -89,49 +94,68 @@ body {
   width: 34px;
   height: 34px;
   position: absolute;
-  top: 8px;
+  top: 13px;
   bottom: 8px;
   right: 8px;
   z-index: 2;
   line-height: 34px;
+}
+.login-page .login-right .form-footer-actions{
+  margin-top: 2rem !important;
+}
+.form-check{
+  padding: 0px !important;
 }
 .login-page .login-right .form-check-input {
   background-color: #2a2e45;
   border: 2px solid #7b43f5;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
   border-radius: 3px;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  margin: 0px;
 }
 .login-page .login-right .form-check-label {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 14px;
+  padding-left: 12px;
   color: #a7b0eb;
 }
 .login-page .login-right a {
   font-weight: 600;
-  font-size: 15.5px;
+  font-size: 20px;
   line-height: 16px;
   letter-spacing: -0.105991px;
   color: #8765db;
   text-decoration: none;
 }
+.login-page .login-right .needs {
+  margin-top: 40px;
+}
+.login-page .login-right .needs h6{
+  font-size: 20px;
+  padding: 2px !important;
+  font-weight: 400;
+}
 .login-page .login-right h6 a {
-  font-size: 14.5px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .login-page .login-right .submit-btn {
   background: linear-gradient(90deg, #6219f5 0%, #9979e9 100%);
-  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
   width: 100%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-size: 15.5px;
-  font-weight: 500;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  /* border: 1px solid #000000; */
+  font-size: 22px;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  font-weight: 700;
   letter-spacing: -0.105991px;
   color: #ffffff;
-  border: 1px solid #000000;
-  padding: 0.75rem 1rem;
+  height: 66px;
+  margin-top: 16px !important;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
