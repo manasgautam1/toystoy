@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --dashboard-bg: #111317;
+  --secondary-bg: #1a1c22;
+  --text-color: #bababb;
+  --purple-gradient: linear-gradient(90deg, #6219f5 0%, #9979e9 100%);
+}
+body {
+  background: var(--dashboard-bg);
+}
+
+.signup-page {
+  width: 70%;
+  height: 80vh;
+  margin: 10vh auto;
+}
+.signup-header {
+  font-family: 'Inter';
+  background: var(--secondary-bg);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color: #bababb;
+  font-weight: 600;
+}
+.signup-header i {
+  font-size: 16px !important;
+}
+.signup-body {
+  background: var(--secondary-bg);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #bababb;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signup-body h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.signup-body p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.signup-body form label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.signup-body form .form-control,
+.signup-body form .form-select {
+  background: #2a2e45;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #bababb;
+  padding: 10px 8px;
+}
+.signup-body form .form-select *,
+.signup-body form .form-control::placeholder {
+  color: #bababb;
+}
+.signup-body form .input-group .input-group-prepend {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #2a2e45;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  padding: 10px 8px;
+}
+.signup-body form .btn {
+  padding: 10px 8px;
+  background: #6219f5;
+  border: 1px solid #7f56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.signup-body form .btn.btn-outline-secondary {
+  background: transparent;
+  border: 1px solid #bababb;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  color: #bababb;
+}

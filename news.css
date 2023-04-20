@@ -1,0 +1,81 @@
+.dashboard main .news-section .latest-news .news-container .news-card > img {
+  width: 70px;
+  height: 70px;
+  margin-right: 1rem;
+}
+.dashboard main .news-section .latest-news .news-container {
+  height: 334.63px;
+}
+.dashboard main .news-section .featured-news-2 {
+  background: #1a1c22;
+  border-radius: 16px;
+}
+.dashboard main .news-section .featured-news-2 .carousel-item {
+  position: relative;
+  height: 272px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.dashboard main .news-section .featured-news-2 .carousel-item > img {
+  height: 272px;
+}
+.dashboard main .news-section .featured-news-2 .carousel .carousel-indicators {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.dashboard
+  main
+  .news-section
+  .featured-news-2
+  .carousel
+  .carousel-indicators
+  li {
+  margin-right: 0.75rem;
+}
+.dashboard main .news-section .featured-news-2 .news-detail h6 {
+  font-size: 15px;
+}
+.dashboard main .news-section .featured-news-2 .news-detail > img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+.dashboard main .news-section .featured-news-2 .news-detail .author img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+.dashboard main .news-section .featured-news-2 .news-detail .author,
+.dashboard main .news-section .featured-news-2 .news-detail .time {
+  font-size: 13px;
+}
+.dashboard main .news-section .featured-news-2 .news-detail .badge {
+  border-radius: 5px;
+}
+.dashboard main .news-section .featured-news-2 .news-detail .badge.badge-red {
+  color: #ff9c9f;
+  background: #ff666b16;
+}
+.dashboard main .news-section .featured-news-2 .news-detail .badge.badge-green {
+  color: #66ffd0;
+  background: #66ffd016;
+}
+.dashboard main .news-section .featured-news-2 .news-detail .badge.badge-pink {
+  color: #ff66c7;
+  background: #ff66c716;
+}
+@media (max-width: 768px) {
+  .dashboard main .news-section .row .col-md-7,
+  .dashboard main .news-section .row .col-md-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .dashboard main .news-section .featured-news-2 .carousel-item,
+  .dashboard main .news-section .featured-news-2 .carousel-item > img {
+    height: 150px;
+  }
+}
